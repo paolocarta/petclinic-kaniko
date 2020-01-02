@@ -18,7 +18,7 @@ spec:
     args: ["--dockerfile=/context/Dockerfile",
             "--context=/context",
  #           "--no-push",
-            "--destination=eu.gcr.io/emea-sa-demo/test-kaniko:latest"]
+            "--destination=eu.gcr.io/ci-cd-playground/test-kaniko:latest"]
     volumeMounts:
       - name: kaniko-secret
         mountPath: /secret
